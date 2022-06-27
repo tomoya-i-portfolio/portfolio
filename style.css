@@ -21,7 +21,7 @@ header{
 
 /*タイトル画像*/
 .title{
-    margin: 10px 0 20px 0;
+    margin: 10px 0;
     line-height: 0%;
     float: left;
 }
