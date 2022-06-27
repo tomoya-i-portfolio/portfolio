@@ -4,7 +4,7 @@ html{
     font-family: sans-serif;
 }
 
-#main,footer,nav{
+#main,footer,#hc{
     margin: 0 auto;
     background-color: white;
     max-width: 960px;
