@@ -4,7 +4,7 @@ html{
     font-family: sans-serif;
 }
 
-#main,footer,#hc{
+#main,footer,#hc,header{
     margin: 0 auto;
     background-color: white;
     max-width: 960px;
@@ -127,6 +127,27 @@ h2{
     margin-right: 10px;
 }
 
+/*作品集*/
+
+.konngo{
+    clear: both;
+}
+
+/*バイク*/
+
+.bicycle img{
+    float: left;
+    width: 460px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.bicycle p{
+    padding: 100px 10px 0;
+}
+
+
 /*フッター*/
 footer{
     padding-top: 10px;
@@ -153,12 +174,12 @@ footer p{
         padding-top: 10px;
     }
 
-    .html img,.css img,.javascript img{
+    .html img,.css img,.javascript img,.bicycle img{
         max-width: 50%;
         height: auto;
     }
 
-    .html p,.css p,.javascript p{
+    .html p,.css p,.javascript p.bicycle p{
         padding: 10px;
     }
 }
