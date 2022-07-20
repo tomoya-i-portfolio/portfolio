@@ -14,26 +14,32 @@ header{
     border-bottom: 5px solid #3f5170;
 }
 
-#concept p,#zikoshoukai p,#sakuhin p{
+.contents{
     margin-left: 10px;
     margin-right: 10px;
 }
 
+
 /*タイトル画像*/
+
+
 .title{
-    margin: 10px 0;
+    margin: 10px 0 10px 0;
     line-height: 0%;
     float: left;
 }
 
+
 /*ナビゲーション*/
+
+
 nav{
     width: 960px;
 }
 
 nav ul{
     margin: 0;
-    padding: 80px 10px 0 20px;
+    padding: 90px 10px 0 20px;
     font-weight: bold;
     text-align: right;
 }
@@ -62,7 +68,10 @@ a:active {
 	color: #ff6a3b;
 }
 
+
 /*メイン画像*/
+
+
 .pc{
     margin: 10px 0;
 }
@@ -71,7 +80,10 @@ h1{
     clear: both;
 }
 
+
 /*表題*/
+
+
 h2{
     color: #3f5170;
     font-size: 22px;
@@ -80,12 +92,15 @@ h2{
     padding: 5px 5px 0 5px;
 }
 
+
 /*スキル*/
+
+
 #skill h2{
     margin-bottom: 30px;
 }
 
-.html img{
+.left{
     float: left;
     width: 460px;
     margin-bottom: 40px;
@@ -93,7 +108,7 @@ h2{
     margin-left: 20px;
 }
 
-.html p,.css p,.javascript p{
+.skill-contents{
     padding: 100px 10px 0;
 }
 
@@ -101,7 +116,7 @@ h2{
     clear: both;
 }
 
-.css img{
+.right{
     float: right;
     width: 460px;
     margin-bottom: 40px;
@@ -113,42 +128,29 @@ h2{
     clear: both;
 }
 
-.javascript img{
-    float: left;
-    width: 460px;
-    margin-bottom: 40px;
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
 .more{
     clear: both;
     margin-left: 10px;
     margin-right: 10px;
 }
 
+
 /*作品集*/
 
-.konngo{
+.after{
     clear: both;
 }
 
 /*バイク*/
 
-.bicycle img{
-    float: left;
-    width: 460px;
-    margin-bottom: 40px;
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
-.bicycle p{
-    padding: 100px 10px 0;
+.work-contents,.work-url{
+    padding: 20px 10px 0;
 }
 
 
 /*フッター*/
+
+
 footer{
     padding-top: 10px;
     border-top: 5px solid #3f5170;
@@ -159,7 +161,10 @@ footer p{
     text-align: center;
 }
 
+
 /*959以下の場合*/
+
+
 @media(max-width:959px){
     .title{
         float: none;
@@ -174,12 +179,13 @@ footer p{
         padding-top: 10px;
     }
 
-    .html img,.css img,.javascript img,.bicycle img{
+    .left,.right{
         max-width: 50%;
         height: auto;
+        margin-bottom: 0;
     }
 
-    .html p,.css p,.javascript p.bicycle p{
+    .skill-contents,.work-contents,.work-url{
         padding: 10px;
     }
 }
