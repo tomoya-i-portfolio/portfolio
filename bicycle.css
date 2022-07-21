@@ -159,6 +159,7 @@ li {
 
   #bicycle ul {
     flex-direction: column;
+    padding: 0;
   }
 
   #bicycle li {
